@@ -1,7 +1,7 @@
 # Inspire 
 
 Inspire is a fun and hip web application for students and young professionals. 
-It allows users to type in their name and receive motivational advice.
+It allows users to type in their name and receive an inspirational response.
 
 ### Features
 - Users type in their name to receive free and friendly inspiration.
