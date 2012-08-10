@@ -1,6 +1,6 @@
 # Coinage
 
-Coinage is a fun and hip web application almost anybody. As long as you're creative. 
+Coinage is a fun and hip web application almost anybody can use. As long as you're creative. 
 It allows the user to creatively coin a word or phrase.
 
 ### Features
