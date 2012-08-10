@@ -1,56 +1,51 @@
-# Inspire 
+# Coinage
 
-Inspire is a fun and hip web application for students and young professionals. 
-It allows users to type in their name and receive an inspirational response.
+Coinage is a fun and hip web application almost anybody. As long as you're creative. 
+It allows the user to creatively coin a word or phrase.
 
 ### Features
-- Users type in their name to receive free and friendly inspiration.
+- Users type in a new word or phrase into a form.
 - Wonderful user interface with CSS animation. Engaging and fun.
-- Results are random, and 'Inspire' will [hopefully] never repeat itself.
+- Entries appear in a coinage inventory.
 - Ability to share results on Facebook and Twitter easily.
 - Share with friends through Facebook.
-- Responsive: mobile and tablet friendly.
 
 ## Learning goals
 - To learn how to build a web application for the first time, from scratch!
 - To utilize and expand my knowledge of server-side languages like PHP and mySQL.
-- To learn responsive techniques using media queries. 
+- To learn CSS3 animation keyframing. 
 
 ### Technologies & techniques
 
-- Mobile and responsive web design.
 - PHP
 - MySQL and SQL language.
 - Creating and utilizing data within a database.
+- CSS3 Animation.
 
 ## Similar applications
 
-- [Intellisult] (http://intellisult.com) 
+- [Urban Dictionary] (http://www.urbandictionary.com/) 
 
-	An intelligent way to insult is the tagline of this web application.
-	Basically the user types in a name and the application generates an insult to append to their name.
+	Urban Dictionary stores words and phrases that are less formal. Users create the meaning of the words and they appear dynamically.
 	
 	**Differences**
 	
-	Rather than focus on insults; I'd like to motivate and inspire my users.
-	I'd also like to make it responsive, so that it works on mobile devices.
-	Users will also be able to share on Facebook and Twitter.
+	Rather than using already created words and attaching different definitions and meanings, I am providing the user with a chance to create their very own word and definition/meaning.
 	
-- [Gangsta Name Generator](http://gangstaname.com/)
+- [Slang Vocabulary](http://www.slangvocabulary.com/)
 
-	This application requires the user to enter a name. After submitting your name it sends back to the browser a new name, a 'Gangsta Name'.
+	Slang Vocabulary is a similar site that is basically a dictionary of slang language. 
 	
 	**Differences**
 	
-	Same idea, however, instead of retrieving a new name, I would like to retrieve something inspiring to attach to the person's name.
-	I also don't want the clutter of advertisements. I want to keep it simple and fun and inspiring.
+	Coinage is not necessarily slang all the time.
 
 	
 ## User research
 
 This application has a pretty wide open demographic. However, I'd like to target it to young professionals and students.
-As a student and young professional it's easy to get overwhelmed. What better way then to stop your work, cease a moment, and get inspired!
-Many young professionals find themselves deviating from work to check Facebook. Hopefully this will be a new way to deviate and inspire work productivity.
+As a student and young professional it's easy to get overwhelmed. What better way then to stop your work, cease a moment, and get be creative!
+Many young professionals find themselves deviating from work to check Facebook. Hopefully this will be a new way to deviate and have fun.
 
 ###Emma
 
