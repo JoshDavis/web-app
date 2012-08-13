@@ -11,7 +11,7 @@ $pass = getenv('MYSQL_PASSWORD'); // The MySQL password
 $host = getenv ('MYSQL_DB_HOST');
 $name = getenv ('MYSQL_DB_NAME');
 $data_source = sprintf('mysql:host=%s;dbname=%s', $host, $name);
-// PDO: PHP Data Objects
+
 // Allows us to connect to many different kinds of databases
 $db = new PDO($data_source, $user, $pass);
 
