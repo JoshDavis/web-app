@@ -63,7 +63,6 @@ h4 {
 @-moz-keyframes slidein {  
 from {  
   margin-left: 50%; 
-  margin-top: -20%;
   width: 100%; 
 }  
 
@@ -76,7 +75,6 @@ to {
 @-ms-keyframes slidein {  
 from {  
   margin-left: 50%; 
-  margin-top: -20%;
   width: 100%; 
 }  
 
@@ -89,7 +87,6 @@ to {
 @-o-keyframes slidein {  
 from {  
   margin-left: 50%; 
-  margin-top: -20%;
   width: 100%; 
 }  
 
@@ -102,7 +99,6 @@ to {
 @-webkit-keyframes slidein {  
 from {  
   margin-left: 50%; 
-  margin-top: -20%;
   width: 100%; 
 }  
 
@@ -212,19 +208,17 @@ aside {
 	border: 1px solid #FFF;
 	width: 500px;
 	height:auto;	
-	background: rgb(254,252,234); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,252,234,1)), color-stop(100%,rgba(241,218,54,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+	background: rgb(254,252,234);
+	background: -moz-linear-gradient(top, rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,252,234,1)), color-stop(100%,rgba(241,218,54,1))); 
+	background: -webkit-linear-gradient(top, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); 
+	background: -o-linear-gradient(top, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+	background: -ms-linear-gradient(top, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); 
+	background: linear-gradient(to bottom, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); 
 	margin: 0 auto;
 	padding:1em;
 	border-radius: 1em;
-	opacity: 0.75;
-	filter: alpha(opacity=40);
+	opacity: 0.7;
 	-webkit-transform: scale(0.9);
 	-moz-transform: scale(0.9);
 	-o-transform: scale(0.9);
@@ -237,33 +231,29 @@ aside {
 }
 
 .wrapper-data article:hover {
-	 background: rgb(241,218,54); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(241,218,54,1) 1%, rgba(254,252,234,1) 96%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(241,218,54,1)), color-stop(96%,rgba(254,252,234,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(241,218,54,1) 1%,rgba(254,252,234,1) 96%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(241,218,54,1) 1%,rgba(254,252,234,1) 96%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(241,218,54,1) 1%,rgba(254,252,234,1) 96%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(241,218,54,1) 1%,rgba(254,252,234,1) 96%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1da36', endColorstr='#fefcea',GradientType=0 ); /* IE6-9 */
+	background: rgb(241,218,54); 
+	background: -moz-linear-gradient(top, rgba(241,218,54,1) 1%, rgba(254,252,234,1) 96%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(241,218,54,1)), color-stop(96%,rgba(254,252,234,1))); 
+	background: -webkit-linear-gradient(top, rgba(241,218,54,1) 1%,rgba(254,252,234,1) 96%); 
+	background: -o-linear-gradient(top, rgba(241,218,54,1) 1%,rgba(254,252,234,1) 96%); 
+	background: -ms-linear-gradient(top, rgba(241,218,54,1) 1%,rgba(254,252,234,1) 96%); 
+	background: linear-gradient(to bottom, rgba(241,218,54,1) 1%,rgba(254,252,234,1) 96%);  
 	-webkit-box-shadow: 0 8px 6px -6px black;
 	-moz-box-shadow: 0 8px 6px -6px black;
 	-ms-box-shadow: 0 8px 6px -6px black;
 	-o-box-shadow: 0 8px 6px -6px black;
 	box-shadow: 0 8px 6px -6px black;
 	opacity:1;
-	-webkit-transform: skewY(0deg);
-	-moz-transform: skewY(0deg);
-	-o-transform: skewY(0deg);
 	background-color: #DDDDDD;
 	padding: 10px;
 	font-family:"Nobile", sans-serif;
-	font-size: 2em;
 	color: #3A3128;
 	text-shadow: 0 1px #FFF;
 	text-align: center;
-	-webkit-transition: all 1s ease-in-out;
-	-moz-transition: all 1s ease-in-out;
-	-o-transition: all 1s ease-in-out;
+	font-size:1.2em;
+	-webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
 }
 
 label {
@@ -280,10 +270,10 @@ label {
 input {
 	float:left;
 	display: inline-block;
-	width: 30em;
+	width: 80%;
 	height:6em;
-	margin: 2em;
-	padding:15px;
+	margin: 8%;
+	padding:2%;
 	-webkit-box-shadow:  5px -2px 7px 4px rgba(49, 40, 33, 0.6);
     box-shadow:  5px -2px 7px 4px rgba(49, 40, 33, 0.6);
 }
