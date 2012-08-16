@@ -3,6 +3,8 @@
 Coinage is a fun and hip web application almost anybody can use. As long as you're creative. 
 It allows the user to creatively coin a word or phrase.
 
+[You can find the app here.](http://coinage.phpfogapp.com/index.php)
+
 ### Features
 - Users type in a new word or phrase into a form.
 - Wonderful user interface with CSS animation. Engaging and fun.
