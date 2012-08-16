@@ -6,7 +6,9 @@ Find the application on [PHP Fog] (http://coinage.phpfogapp.com/index.php)
 #Author Information
 
 Josh Davis
+
 Contact: [davis.webinfo@gmail.com] (davis.webinfo@gmail.com)
+
 Website:  [JJAD] (http://jjad.ca)
 
 #Source Code
